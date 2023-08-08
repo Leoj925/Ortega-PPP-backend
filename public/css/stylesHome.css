@@ -1,0 +1,189 @@
+@import url("https://fonts.google.com/specimen/Prosto+One");
+
+
+:root {
+    --primary: #1E1E1E;
+    --secondary: #041989;
+}
+
+.banner {
+    background-color: var(--secondary);
+}
+
+header {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoHead {
+    display: flex;
+    padding: 0px 10px;
+}
+
+.burger {
+    display: flex;
+    padding: 0px 10px;
+}
+
+main {
+    max-width: 100%;
+    background-color: #161c3f;
+    padding-bottom: 30px;
+}
+
+.Hero-banner {
+    display: flex;
+}
+
+.imagenHero {
+    width: 100%;
+    height: auto;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tituloProductos {
+    color: #DFFF4F;
+    font-family: "Prosto One";
+}
+
+.Articulo {
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    height: 80%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.imagenPaleta {
+    max-height: 40%;
+    max-width: 100%;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.nombrePaleta {
+    flex: 1;
+    padding: 5px;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.stockPrecio {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+
+    padding: 5px;
+}
+
+.precio {
+    font-size: large;
+    font-weight: bold;
+}
+
+.stock {
+    font-size: small;
+    margin-right: 10px;
+}
+
+.botonera {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    max-width: 150px;
+    max-height: 25px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+
+}
+
+.botonCompra {
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    background-color: #d9d9d9;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: row;
+    max-height: 100%;
+    font-size: medium;
+}
+
+footer {
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoFooter {
+    display: flex;
+    max-width: 20%;
+}
+
+.terminosyCopy {
+    color: #DFFF4F;
+    font-family: "Prosto One";
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 10px;
+}
+
+.terminoContacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.termino {
+    padding: 0px 20px;
+}
+
+#term {
+    color: #DFFF4F;
+    text-decoration: none;
+}
+
+.contacto {
+    padding: 0px 20px;
+}
+
+#cont {
+    color: #DFFF4F;
+    text-decoration: none;
+}
+
+.Copyright {
+    margin-left: 15px;
+    font-size: smaller;
+}
+
+.redes {
+    max-width: 20%;
+    margin-top: 20px;
+}
+
+
+

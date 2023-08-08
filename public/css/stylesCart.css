@@ -1,0 +1,211 @@
+@import url("https://fonts.google.com/specimen/Prosto+One");
+
+
+:root {
+    --primary: #1E1E1E;
+    --secondary: #041989;
+}
+
+.banner {
+    background-color: var(--secondary);
+}
+
+header {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoHead {
+    display: flex;
+    padding: 0px 10px;
+}
+
+.burger {
+    display: flex;
+    padding: 0px 10px;
+}
+
+main {
+    max-width: 100%;
+    background-color: #161c3f;
+    padding-bottom: 30px;
+}
+
+.cart{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.superior{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content: space-between;
+    color: #DFFF4F;
+    font-family: "Prosto One";
+    width: 100%;
+}
+
+.carrito{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+} 
+
+#borraTodo{
+    color: #DFFF4F;
+    text-decoration: none;
+    font-size: small;
+
+}
+
+.articuloCart{
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: #000000;
+    font-weight: normal;
+    font-family: "Prosto One";
+    overflow: hidden;
+}
+
+.imagenPaleta{
+    max-width: 150px;
+    margin-right: 10px;
+}
+
+.nombrePaleta{
+    margin-right: 10px;
+    font-size: small;
+}
+
+.agregaQuita{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    align-items: center;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+.agrega{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+        
+}
+.quita{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cantidad{
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.precio{
+    margin-right: 10px;
+    font-size: small;
+}
+
+.borraArticulo img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+    color: #DFFF4F;
+    font-family: "Prosto One";
+    font-weight: normal;
+}
+
+.botonPagar{
+    font-family: "Prosto One";
+    border-radius: 8px;
+}
+
+
+footer {
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoFooter {
+    display: flex;
+    max-width: 20%;
+}
+
+.terminosyCopy {
+    color: #DFFF4F;
+    font-family: "Prosto One";
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 10px;
+}
+
+.terminoContacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.termino {
+    padding: 0px 20px;
+}
+
+#term {
+    color: #DFFF4F;
+    text-decoration: none;
+}
+
+.contacto {
+    padding: 0px 20px;
+}
+
+#cont {
+    color: #DFFF4F;
+    text-decoration: none;
+}
+
+.Copyright {
+    margin-left: 15px;
+    font-size: smaller;
+}
+
+.redes {
+    max-width: 20%;
+    margin-top: 20px;
+}

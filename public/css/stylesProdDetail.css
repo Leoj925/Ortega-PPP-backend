@@ -1,0 +1,185 @@
+@import url("https://fonts.google.com/specimen/Prosto+One");
+
+
+:root {
+    --primary: #1E1E1E;
+    --secondary: #041989;
+}
+
+.banner {
+    background-color: var(--secondary);
+}
+
+header {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoHead {
+    display: flex;
+    padding: 0px 10px;
+}
+
+.burger {
+    display: flex;
+    padding: 0px 10px;
+}
+
+main {
+    max-width: 100%;
+    background-color: #161c3f;
+    padding-bottom: 30px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productoElegido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.imagenesElegido{
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    margin: 20px 2%;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    background-color: #d9d9d9;
+    max-width: 300px;
+    /*no puedo hacer que tenga en mismo ancho que el container de arriba*/
+}
+
+.sideImages{
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    margin-left: 5px; 
+    margin-right: 5px;
+    align-items: center;
+}
+ /*no puedo hacer que las cajas queden a la misma altura*/
+.side1{
+       object-fit: cover;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.side2{
+   
+    object-fit: cover;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.mainImage{
+    flex: 1;
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    margin-left: 2%
+}
+
+
+.botonera {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    max-width: 150px;
+    max-height: 25px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+
+}
+
+.botonCompra {
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    background-color: #d9d9d9;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: row;
+    max-height: 100%;
+    font-size: medium;
+}
+
+footer {
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoFooter {
+    display: flex;
+    max-width: 20%;
+}
+
+.terminosyCopy {
+    color: #DFFF4F;
+    font-family: "Prosto One";
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 10px;
+}
+
+.terminoContacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.termino {
+    padding: 0px 20px;
+}
+
+#term {
+    color: #DFFF4F;
+    text-decoration: none;
+}
+
+.contacto {
+    padding: 0px 20px;
+}
+
+#cont {
+    color: #DFFF4F;
+    text-decoration: none;
+}
+
+.Copyright {
+    margin-left: 15px;
+    font-size: smaller;
+}
+
+.redes {
+    max-width: 20%;
+    margin-top: 20px;
+}

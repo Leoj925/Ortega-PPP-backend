@@ -1,0 +1,142 @@
+@import url("https://fonts.google.com/specimen/Prosto+One");
+
+
+:root {
+    --primary: #1E1E1E;
+    --secondary: #041989;
+}
+
+.banner {
+    background-color: var(--secondary);
+}
+
+header {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.logoHead {
+    display: flex;
+    padding: 0px 10px;
+}
+
+.burger {
+    display: flex;
+    padding: 0px 10px;
+}
+
+main {
+    max-width: 100%;
+    background-color: #161c3f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login{
+    font-family: "Prosto One";
+    color: #DFFF4F;
+    font-size: larger;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    font-family: "Prosto One";
+    background-color: #d9d9d9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 3%;
+}
+
+.checkboxContainer{
+    font-size: smaller;
+    margin-top: 5px
+}
+
+.item{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.olvideRegistrar{
+    display: flex;
+    flex-direction: row;
+    font-family: "Prosto One";
+    color: #DFFF4F;
+    font-size: smaller;
+}
+
+.olvide{
+    padding-right: 5px;
+}
+
+.registrar{
+    padding-left: 5px;
+}
+
+footer {
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoFooter {
+    display: flex;
+    max-width: 20%;
+}
+
+.terminosyCopy {
+    color: #DFFF4F;
+    font-family: "Prosto One";
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 10px;
+}
+
+.terminoContacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.termino {
+    padding: 0px 20px;
+}
+
+#term {
+    color: #DFFF4F;
+    text-decoration: none;
+}
+
+.contacto {
+    padding: 0px 20px;
+}
+
+#cont {
+    color: #DFFF4F;
+    text-decoration: none;
+}
+
+.Copyright {
+    margin-left: 15px;
+    font-size: smaller;
+}
+
+.redes {
+    max-width: 20%;
+    margin-top: 20px;
+}
+
+
+
