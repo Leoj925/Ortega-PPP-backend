@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
+<%-include("./partials/head.ejs",{"css":["header.ejs","home.ejs","footer.ejs"]})%>
+<!-- <head>
     <link rel="stylesheet" type="text/CSS" href="/css/stylesCart.css" />
     <title>Carrito</title>
-</head>
+</head> -->
 
 <body>
-    <header class="banner">
+    <%-include("./partials/header.ejs")%>
+    <!-- <header class="banner">
         <div class="logoHead">
             <a href="#" class="button">
                 <img src="./imagenes png/image.png" alt:"Logo" width="100" height="100" />
@@ -18,7 +20,7 @@
                 <img src="./imagenes png/burger menu.png" alt:"Burgermenu" width="40" height="40" />
             </a>
         </div>
-    </header>
+    </header> -->
     <main class="cart">
         <div class="superior">
             <h2 class="carrito">Carrito</h2>
@@ -69,7 +71,8 @@
             <button class="botonPagar">Comprar Ahora</button>
         </div>
     </main>
-    <footer>
+    <%-include("./partials/footer.ejs")%>
+    <!-- <footer>
         <div class="logoFooter">
             <a href="#" class="button">
                 <img src="./imagenes png/image.png" alt:"Logo" width="100" height="100" />
@@ -93,7 +96,7 @@
                 <img src="./imagenes png/face.png" alt="facebook" width="30" height="30">
             </a>
         </div>
-    </footer>
+    </footer> -->
 </body>
 
 </html>

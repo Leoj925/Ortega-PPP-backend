@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Adidas Metalbone HRD 3.2",
+        "descripcion": "Una de las palas más buscadas en el mercado debido al jugador con el que está asociada, la Metalbone 3.2 actualizada es una actualización principalmente cosmética de la versión del año pasado de la pala insignia de Alejandro Galán. Con un toque medio-duro y un pequeño punto dulce , esta es una pala técnica de diamantes de gran tamaño. El sistema Spin Blade de 2023 transmite menos efecto que las versiones anteriores.",
+        "precio": "$381250",
+        "stock": 4
+    },
+    {
+        "id": 2,
+        "nombre": "Nox AT.2 Genius LTD 2023",
+        "descripcion": "Con tu nuevo PACK NOX AT GENIUS LIMITED EDITION 2023, te llevarás toda la experiencia de exclusividad y edición limitada que te brinda Agustín Tapia. Con una pala NOX AT GENIUS LTD LIMITED EDITION 2023 en forma de lágrima para la polivalencia en la pista, con una goma HR3 para una excelente salida de la bola y una fabricación total de carbono que resiste cada impacto conservando la durabilidad. Además también te incluye muñequeras para tener la concentración en la victoria, con una increíble capacidad de absorción exclusiva de Nox y un tejido suave en cada tacto, justo lo que necesitas en la pista. Por si fuera poco podrás encontrar dos cordones para el agarre, uno negro y uno gris, ideal para cambiar de estilo a la pala y tener la victoria segura con un agarre perfecto. Para un toque extra te llevarás un llavero de tu nueva pala favorita",
+        "precio": "$333414",
+        "stock": 2
+    },
+    {
+        "id": 3,
+        "nombre": "Bullpadel Hack 03 FIP",
+        "descripcion": "La pala Hack 03 FIP es la pala de Pádel que Bullpadel elige para la nueva colección FIP 23. Es una pala con forma de diamante, de máxima potencia y alto rendimiento sin pérdidas de control. Está concebida para jugadores profesionales o avanzados",
+        "precio": "$313760",
+        "stock": 3
+    },
+    {
+        "id": 4,
+        "nombre": "Bolso Paletero Nox WPT Open Series",
+        "descripcion": "El paletero NOX WPT OPEN SERIES es un complemento ideal para todos los deportistas que busquen comodidad y elegancia con un diseño cómodo y moderno. Este paletero ligero y compacto pero de gran capacidad es perfecto para llevar todo lo que necesitas en los partidos.",
+        "precio": "$115999",
+        "stock": 6
+    },
+    {
+        "id": 5,
+        "nombre": "Cubregrip Adidas x25",
+        "descripcion": "25 unidades de Over grips microperforados de gran adherencia con alta absorción de sudor y agua. Máximo confort y tacto suave. Excelente sensación de agarre",
+        "precio": "$62375",
+        "stock": 10
+    }
+]

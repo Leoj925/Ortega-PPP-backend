@@ -4,27 +4,29 @@ const path= require("path")
 
 const PORT=3000
 
+app.set("view engine", "ejs");
+
 app.listen(PORT, ()=>console.log("Escuchando al puerto: ",PORT))
 
 app.use(express.static("public")) //de donde saco los archivos (carpeta publica =>muchos archivos distintos, estaticos)
 
 /* RUTAS */
 app.get("/", (req,res)=> {
-    res.sendFile (path.join(__dirname, "views/home.html"))
+    res.render ("../views/home.ejs")
 })
 
 app.get("/detalle-producto", (req,res)=> {
-    res.sendFile (path.join(__dirname, "views/productDetail.html"))
+    res.render("../views/productDetail.ejs")
 })
 
 app.get("/login", (req,res)=> {
-    res.sendFile (path.join(__dirname, "views/login.html"))
+    res.render ("../views/login.ejs")
 })
 
 app.get("/cart", (req,res)=> {
-    res.sendFile (path.join(__dirname, "views/cart.html"))
+    res.render ("../views/cart.ejs")
 })
 
 app.get("/register", (req,res)=> {
-    res.sendFile (path.join(__dirname, "views/register.html"))
+    res.render ("../views/register.ejs")
 })
