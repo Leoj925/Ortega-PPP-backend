@@ -1,102 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<%-include("./partials/head.ejs",{"css":["header.ejs","home.ejs","footer.ejs"]})%>
-<!-- <head>
-    <link rel="stylesheet" type="text/CSS" href="/css/stylesCart.css" />
-    <title>Carrito</title>
-</head> -->
+<%-include(". /partials/head.ejs",{"css":["header.ejs","footer.ejs"]})%>
 
-<body>
-    <%-include("./partials/header.ejs")%>
-    <!-- <header class="banner">
-        <div class="logoHead">
-            <a href="#" class="button">
-                <img src="./imagenes png/image.png" alt:"Logo" width="100" height="100" />
-            </a>
-        </div>
-        <div class="burger">
-            <a id="burgermenu" href="#" class="button">
-                <img src="./imagenes png/burger menu.png" alt:"Burgermenu" width="40" height="40" />
-            </a>
-        </div>
-    </header> -->
-    <main class="cart">
-        <div class="superior">
-            <h2 class="carrito">Carrito</h2>
-            <a href="#" id="borraTodo">Borrar Todo</a>
-        </div>
-        <div class="carrito">
-            <article class="articuloCart">
-                <img src="./imagenes png/adidas metalbone.png" alt="imagen de articulo" class="imagenPaleta" />
-                <h5 class="nombrePaleta">Adidas Metalbone HRD 3.2</h5>
-                <div class="agregaQuita">
-                    <button class="quita">-</button>
-                    <h6 class="cantidad">1</h6>
-                    <button class="agrega">+</button>
+    <head>
+        <link rel="stylesheet" type="text/CSS" href="/css/stylesCart.css" />
+    </head>
+
+    <body>
+        <%-include(". /partials/header.ejs")%>
+
+            <main class="cart">
+                <div class="superior">
+                    <h2 class="carrito">Carrito</h2>
+                    <a href="#" id="borraTodo">Borrar Todo</a>
                 </div>
-                <div class="precioCart">
-                    <p class="precio">$123456</p>
+                <div class="carrito">
+                    <article class="articuloCart">
+                        <img src="./imagenes png/adidas metalbone.png" alt="imagen de articulo" class="imagenPaleta" />
+                        <h5 class="nombrePaleta">Adidas Metalbone HRD 3.2</h5>
+                        <div class="agregaQuita">
+                            <button class="quita">-</button>
+                            <h6 class="cantidad">1</h6>
+                            <button class="agrega">+</button>
+                        </div>
+                        <div class="precioCart">
+                            <p class="precio">$123456</p>
+                        </div>
+                        <div class="borraArticulo">
+                            <a href="#" class="button" id="botonBorrar">
+                                <img src="./imagenes png/trashbin.png" alt:"Trash" width="40" height="40" />
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="articuloCart">
+                        <img src="./imagenes png/pack-at2-genius-ltd-2023-agustin-tapia-limited-edition-992684.webp"
+                            alt="imagen de articulo" class="imagenPaleta" />
+                        <h5 class="nombrePaleta">Nox AT.2 Genius LTD 2023</h5>
+                        <div class="agregaQuita">
+                            <button class="quita">-</button>
+                            <h6 class="cantidad">1</h6>
+                            <button class="agrega">+</button>
+                        </div>
+                        <div class="precioCart">
+                            <p class="precio">$123456</p>
+                        </div>
+                        <div class="borraArticulo">
+                            <a href="#" class="button" id="botonBorrar">
+                                <img src="./imagenes png/trashbin.png" alt:"Trash" width="40" height="40" />
+                            </a>
+                        </div>
+                    </article>
                 </div>
-                <div class="borraArticulo">
-                    <a href="#" class="button" id="botonBorrar">
-                        <img src="./imagenes png/trashbin.png" alt:"Trash" width="40" height="40" />
-                    </a>
+                <div class="total">
+                    <h4>Total $123456</h4>
                 </div>
-            </article>
-            
-            <article class="articuloCart">
-                <img src="./imagenes png/pack-at2-genius-ltd-2023-agustin-tapia-limited-edition-992684.webp"
-                    alt="imagen de articulo" class="imagenPaleta" />
-                <h5 class="nombrePaleta">Nox AT.2 Genius LTD 2023</h5>
-                <div class="agregaQuita">
-                    <button class="quita">-</button>
-                    <h6 class="cantidad">1</h6>
-                    <button class="agrega">+</button>
+                <div class="pagar">
+                    <button class="botonPagar">Comprar Ahora</button>
                 </div>
-                <div class="precioCart">
-                    <p class="precio">$123456</p>
-                </div>
-                <div class="borraArticulo">
-                    <a href="#" class="button" id="botonBorrar">
-                        <img src="./imagenes png/trashbin.png" alt:"Trash" width="40" height="40" />
-                    </a>
-                </div>
-            </article>
-        </div>
-        <div class="total">
-            <h4>Total $123456</h4>
-        </div>
-        <div class="pagar">
-            <button class="botonPagar">Comprar Ahora</button>
-        </div>
-    </main>
-    <%-include("./partials/footer.ejs")%>
-    <!-- <footer>
-        <div class="logoFooter">
-            <a href="#" class="button">
-                <img src="./imagenes png/image.png" alt:"Logo" width="100" height="100" />
-            </a>
-        </div>
-        <div class="terminosyCopy">
-            <div class="terminoContacto">
-                <div class="terminos"><a href="#" class="button" id="term">Terminos y condiciones</a></div>
-                <div class="contacto"><a href="#" class="button" id="cont">Contacto</a></div>
-            </div>
-            <div class="Copyright">Copyright© 2023</div>
-        </div>
-        <div class="Redes">
-            <a href="#" class="button">
-                <img src="./imagenes png/whatsapp.png" alt="whatsapp" width="30" height="30">
-            </a>
-            <a href="#" class="button">
-                <img src="./imagenes png/insta.png" alt="instagram" width="30" height="30">
-            </a>
-            <a href="#" class="button">
-                <img src="./imagenes png/face.png" alt="facebook" width="30" height="30">
-            </a>
-        </div>
-    </footer> -->
-</body>
+            </main>
+            <%-include(". /partials/footer.ejs")%>
+
+    </body>
 
 </html>

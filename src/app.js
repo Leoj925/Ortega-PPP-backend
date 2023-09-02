@@ -4,6 +4,7 @@ const path= require("path")
 
 const PORT=3000
 
+app.set("views", path.resolve(__dirname,"../views"))
 app.set("view engine", "ejs");
 
 app.listen(PORT, ()=>console.log("Escuchando al puerto: ",PORT))

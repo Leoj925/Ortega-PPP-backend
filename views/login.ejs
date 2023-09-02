@@ -1,74 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<%-include(". /partials/head.ejs",{"css":["header.ejs","footer.ejs"]})%>
+
     <head>
         <link rel="stylesheet" type="text/CSS" href="/css/stylesLogin.css" />
-        <title>Login</title>
     </head>
 
-    <header class="banner">
-        <div class="logoHead">
-            <a href="#" class="button">
-                <img src="./imagenes png/image.png" alt:"Logo" width="100" height="100" />
-            </a>
-        </div>
-        <div class="burger">
-            <a id="burgermenu" href="#" class="button">
-                <img src="./imagenes png/burger menu.png" alt:"Burgermenu" width="40" height="40" />
-            </a>
-        </div>
-    </header>
-    <main>
-        <body>
-            <h1 class="login">Login</h1>
-            <form class="formulario">
-                <label for="userName" class="item">e-mail</label>
-                <input type="email" id="userName" placeholder="Ingrese su email">
-                <label for="password" class="item">Contraseña</label>
-                <input type="password" id="password" placeholder="Ingrese su contraseña">
-                <div class="checkboxContainer">
-                    <label for="rememberUser">Recordar usuario</label>
-                    <input type="checkbox" id="rememberUser">
+    <body>
+        <%-include(". /partials/header.ejs")%>
+            <main>
+                <h1 class="login">Login</h1>
+                <form class="formulario">
+                    <label for="userName" class="item">e-mail</label>
+                    <input type="email" id="userName" placeholder="Ingrese su email">
+                    <label for="password" class="item">Contraseña</label>
+                    <input type="password" id="password" placeholder="Ingrese su contraseña">
+                    <div class="checkboxContainer">
+                        <label for="rememberUser">Recordar usuario</label>
+                        <input type="checkbox" id="rememberUser">
+                    </div>
+                    <div class="checkboxContainer">
+                        <label for="stayLogged">Mantenerse logueado</label>
+                        <input type="checkbox" id="stayLogged">
+                    </div>
+                </form>
+                <button type="submit">Ingresar</button>
+                <div class="olvideRegistrar">
+                    <h5 class="olvide">Olvide mi contraseña</h5>
+                    <h5 class="registrar">Registrarse</h5>
                 </div>
-                <div class="checkboxContainer">
-                    <label for="stayLogged">Mantenerse logueado</label>
-                    <input type="checkbox" id="stayLogged">
-                </div>
-            </form>
-            <button type="submit">Ingresar</button>
-            <div class="olvideRegistrar">
-                <h5 class="olvide">Olvide mi contraseña</h5>
-                <h5 class="registrar">Registrarse</h5>
-            </div>
 
 
-        </body>
-    </main>
 
-    <footer>
-        <div class="logoFooter">
-            <a href="#" class="button">
-                <img src="./imagenes png/image.png" alt:"Logo" width="100" height="100" />
-            </a>
-        </div>
-        <div class="terminosyCopy">
-            <div class="terminoContacto">
-                <div class="terminos"><a href="#" class="button" id="term">Terminos y condiciones</a></div>
-                <div class="contacto"><a href="#" class="button" id="cont">Contacto</a></div>
-            </div>
-            <div class="Copyright">Copyright© 2023</div>
-        </div>
-        <div class="Redes">
-            <a href="#" class="button">
-                <img src="./imagenes png/whatsapp.png" alt="whatsapp" width="30" height="30">
-            </a>
-            <a href="#" class="button">
-                <img src="./imagenes png/insta.png" alt="instagram" width="30" height="30">
-            </a>
-            <a href="#" class="button">
-                <img src="./imagenes png/face.png" alt="facebook" width="30" height="30">
-            </a>
-        </div>
-    </footer>
+            </main>
+            <%-include(". /partials/footer.ejs")%>
+
+    </body>
+
 
 </html>
