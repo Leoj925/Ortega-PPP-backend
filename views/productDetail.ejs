@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-<%-include(". /partials/head.ejs",{"css":["header.ejs","footer.ejs"]})%>
+<%-include("./partials/head.ejs",{"css":["header.ejs","footer.ejs"]})%>
 
     <head>
         <link rel="stylesheet" type="text/CSS" href="/css/stylesProdDetail.css" />
     </head>
 
     <body>
-        <%-include(". /partials/header.ejs")%>
+        <%-include("./partials/header.ejs")%>
             <main class="detail">
                 <section class="productoElegido">
                     <div class="imagenesElegido">
@@ -39,7 +39,7 @@
                         <img src="./imagenes png/cart.png" alt="cart" width="15" height="15"></a>
                 </section>
             </main>
-            <%-include(". /partials/footer.ejs")%>
+            <%-include("./partials/footer.ejs")%>
     </body>
 
 </html>
