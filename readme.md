@@ -25,6 +25,6 @@ DM Sans, Prosto One
 ## Paleta de Colores
 `#041989`, `#DFFF4F`, `#FFFFFF`, `#d9d9d9`
 ## logo
-![Logo](./imagenes%20png/image.png)
+![Logo](./public/imagenes%20png/image.png)
 ## link de FIGMA
 https://www.figma.com/file/gkTvBrX1kIapkmUrdZlwst/Proyecto-PPP?type=design&node-id=0-1&mode=design&t=j1zWUHk25X2hcy0W-0
