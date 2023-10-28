@@ -19,10 +19,10 @@ app.listen(PORT, ()=>console.log("Escuchando al puerto: ",PORT))
 app.use(express.static("public")) 
 app.use(cookieParser())
 
-const read = () => JSON.parse(fs.readFileSync('./users.json', 'utf-8'))
+const read = () => JSON.parse(fs.readFileSync('../data/users.json', 'utf-8'))
 const writeJSON = (data) => {
     let stringifiedData = JSON.stringify (data, null, 2);
-    return fs.writeFileSync("./users.json", stringifiedData);
+    return fs.writeFileSync("../data/users.json", stringifiedData);
 };
 
 /* RUTAS */
